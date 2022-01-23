@@ -5,7 +5,7 @@
     "stake_amount": 100,
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "USD",
-    "timeframe": "5m",    
+    "timeframe": "4h",    
     "dry_run": true,
     "cancel_open_orders_on_exit": false,
     "unfilledtimeout": {
@@ -86,7 +86,7 @@
     "internals": {
         "process_throttle_secs": 5
     },
-    "strategy": "SampleStrategy",
+    "strategy": "MAStrategy",
     "timerange": "20210901-20220122",
     "verbosity": "info",
 }
